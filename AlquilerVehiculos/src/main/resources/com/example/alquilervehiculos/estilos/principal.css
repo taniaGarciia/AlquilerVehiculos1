@@ -1,0 +1,32 @@
+.myButton {
+    -fx-background-color:#FFEC78;
+    -fx-background-radius: 3;
+    -fx-effect: dropshadow(three-pass-box, gray, 2, 0, 0, 2);
+}
+
+.myButton:hover {
+    -fx-background-color:#e5d46c;
+    -fx-effect: dropshadow(three-pass-box, #221243, 2, 0, 0, 2);
+}
+
+.myButtonConfirm {
+    -fx-background-color: #48C9B0;
+    -fx-background-radius: 3;
+    -fx-effect: dropshadow(three-pass-box, gray, 2, 0, 0, 2);
+}
+
+.myButtonConfirm:hover {
+    -fx-background-color:#40b49e;
+    -fx-effect: dropshadow(three-pass-box, #221243, 2, 0, 0, 2);
+}
+
+.myButtonDelete {
+    -fx-background-color: #D98880;
+    -fx-background-radius: 3;
+    -fx-effect: dropshadow(three-pass-box, gray, 2, 0, 0, 2);
+}
+
+.myButtonDelete:hover {
+    -fx-background-color:#c37a73;
+    -fx-effect: dropshadow(three-pass-box, #221243, 2, 0, 0, 2);
+}
